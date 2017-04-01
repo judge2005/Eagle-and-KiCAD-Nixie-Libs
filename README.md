@@ -1,5 +1,5 @@
-# Eagle-Nixie-Libs
-Eagle libraries for nixie tubes. Includes:
+# Eagle-and-KiCAD-Nixie-Libs
+Eagle and KiCAD libraries for nixie tubes. Includes:
 
 * IN-1
 * IN-2
@@ -22,4 +22,6 @@ Eagle libraries for nixie tubes. Includes:
 * IN-19A
 * IN-19B
 * IN-19V
-
+* ZM1000
+* ZM1042 (three socket variants)
+* NE-2 Neon bulb
