@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.2.1">
+<eagle version="9.2.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -539,6 +540,33 @@ Based on the following sources:
 <text x="0" y="5.08" size="1.27" layer="21" align="center">Top</text>
 <wire x1="9.921875" y1="9.921875" x2="-9.921875" y2="9.921875" width="0.254" layer="21" curve="100"/>
 <text x="0" y="0" size="1.27" layer="21" align="center">&gt;VALUE</text>
+</package>
+<package name="IN-4-DSUB">
+<description>May be used with socket: &lt;b&gt;PL31-P&lt;/b&gt;</description>
+<circle x="0" y="0" radius="2.54" width="0.0254" layer="29"/>
+<circle x="0" y="0" radius="1.27" width="2.54" layer="29"/>
+<circle x="0" y="0" radius="1.27" width="2.54" layer="30"/>
+<circle x="-0.0331375" y="-0.0873" radius="2.54" width="0.0254" layer="44"/>
+<circle x="-0.0331375" y="-0.0873" radius="15.8185" width="0.254" layer="21"/>
+<circle x="0" y="0" radius="15.7555" width="0.254" layer="21"/>
+<pad name="A3" x="8.6006875" y="2.453775" drill="1.6"/>
+<pad name="8" x="8.8779" y="-1.321559375" drill="1.6"/>
+<pad name="6" x="7.5467375" y="-4.94481875" drill="1.6"/>
+<pad name="4" x="4.793284375" y="-7.63154375" drill="1.6"/>
+<pad name="9" x="6.788575" y="5.777359375" drill="1.6"/>
+<pad name="7" x="3.706890625" y="8.101846875" drill="1.6"/>
+<pad name="N/C" x="-0.0629875" y="8.86865" drill="1.6"/>
+<pad name="0" x="-3.79308125" y="8.083546875" drill="1.6"/>
+<pad name="2" x="-6.783634375" y="5.84824375" drill="1.6"/>
+<pad name="A2" x="-8.707390625" y="2.467540625" drill="1.6"/>
+<pad name="3" x="-8.93806875" y="-1.35303125" drill="1.6"/>
+<pad name="5" x="-7.577378125" y="-4.91371875" drill="1.6"/>
+<pad name="A1" x="-4.9188875" y="-7.5712375" drill="1.6"/>
+<pad name="1" x="-1.363328125" y="-9.02656875" drill="1.6"/>
+<hole x="-0.0331375" y="-0.0873" drill="5"/>
+<text x="0" y="12.7" size="1.778" layer="21" align="center">TOP</text>
+<text x="0" y="-12.7" size="1.778" layer="21" align="center">&gt;VALUE</text>
+<text x="16.51" y="0" size="1.778" layer="21">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -1481,23 +1509,22 @@ Based on the following sources:
 <deviceset name="IN-4" prefix="N">
 <description>IN-4: large numeric &lt;b&gt;topview&lt;/b&gt; nixie tube</description>
 <gates>
-<gate name="G$1" symbol="IN-4" x="0" y="2.54"/>
+<gate name="G$1" symbol="IN-2" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="IN-18">
+<device name="" package="IN-4-DSUB">
 <connects>
-<connect gate="G$1" pin="0" pad="N/C2"/>
-<connect gate="G$1" pin="1" pad="9"/>
-<connect gate="G$1" pin="2" pad="8"/>
-<connect gate="G$1" pin="3" pad="1"/>
-<connect gate="G$1" pin="4" pad="N/C"/>
-<connect gate="G$1" pin="5" pad="A2"/>
-<connect gate="G$1" pin="6" pad="4"/>
+<connect gate="G$1" pin="0" pad="0"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
 <connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="5"/>
-<connect gate="G$1" pin="9" pad="6"/>
-<connect gate="G$1" pin="A" pad="0"/>
-<connect gate="G$1" pin="A2" pad="2"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+<connect gate="G$1" pin="A" pad="A3"/>
 </connects>
 <technologies>
 <technology name=""/>
