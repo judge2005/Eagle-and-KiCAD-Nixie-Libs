@@ -568,6 +568,29 @@ Based on the following sources:
 <text x="0" y="-12.7" size="1.778" layer="21" align="center">&gt;VALUE</text>
 <text x="16.51" y="0" size="1.778" layer="21">&gt;NAME</text>
 </package>
+<package name="IN-4-DSUB-SPARSE">
+<description>May be used with socket: &lt;b&gt;PL31-P&lt;/b&gt;</description>
+<circle x="0" y="0" radius="2.54" width="0.0254" layer="29"/>
+<circle x="0" y="0" radius="1.27" width="2.54" layer="29"/>
+<circle x="0" y="0" radius="1.27" width="2.54" layer="30"/>
+<circle x="-0.0331375" y="-0.0873" radius="15.8185" width="0.254" layer="21"/>
+<circle x="0" y="0" radius="15.7555" width="0.254" layer="21"/>
+<pad name="A3" x="8.6006875" y="2.453775" drill="1.6"/>
+<pad name="8" x="8.8779" y="-1.321559375" drill="1.6"/>
+<pad name="6" x="7.5467375" y="-4.94481875" drill="1.6"/>
+<pad name="4" x="4.793284375" y="-7.63154375" drill="1.6"/>
+<pad name="9" x="6.788575" y="5.777359375" drill="1.6"/>
+<pad name="7" x="3.706890625" y="8.101846875" drill="1.6"/>
+<pad name="0" x="-3.79308125" y="8.083546875" drill="1.6"/>
+<pad name="2" x="-6.783634375" y="5.84824375" drill="1.6"/>
+<pad name="3" x="-8.93806875" y="-1.35303125" drill="1.6"/>
+<pad name="5" x="-7.577378125" y="-4.91371875" drill="1.6"/>
+<pad name="1" x="-1.363328125" y="-9.02656875" drill="1.6"/>
+<text x="0" y="12.7" size="1.778" layer="21" align="center">TOP</text>
+<text x="0" y="-12.7" size="1.778" layer="21" align="center">&gt;VALUE</text>
+<text x="16.51" y="0" size="1.778" layer="21">&gt;NAME</text>
+<hole x="0" y="0" drill="5.08"/>
+</package>
 </packages>
 <symbols>
 <symbol name="IN-17">
@@ -1513,6 +1536,24 @@ Based on the following sources:
 </gates>
 <devices>
 <device name="" package="IN-4-DSUB">
+<connects>
+<connect gate="G$1" pin="0" pad="0"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+<connect gate="G$1" pin="A" pad="A3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SPARSE" package="IN-4-DSUB-SPARSE">
 <connects>
 <connect gate="G$1" pin="0" pad="0"/>
 <connect gate="G$1" pin="1" pad="1"/>
