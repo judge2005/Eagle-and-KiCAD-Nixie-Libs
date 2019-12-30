@@ -34,12 +34,12 @@ All take 'D-SUB' socket-pins widely available on ebay, unless otherwise noted.
 * B5991 (SK-136 socket)
 * B7971 (RTS-5 socket)
 * B8091/B7094(use RTS-5/TOP-VIEW footprint - mill-max 8331-0-15-15-18-27-10-0 holes)
-* GR10J (B17A socket)
 * CD-11
 * CK1918 (RTS-14 socket)
 * CK8650
 * GENERIC (ZIF socket for tubes with flying leads)
 * GN4P
+* GR10J (B17A socket)
 * GR10K
 * GR10N (mill-max 8331-0-15-15-18-27-10-0 holes)
 * ITS1A/B (wire holes)
