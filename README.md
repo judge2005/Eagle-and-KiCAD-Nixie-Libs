@@ -36,6 +36,7 @@ All take 'D-SUB' socket-pins widely available on ebay, unless otherwise noted.
 * B8091/B7094(use RTS-5/TOP-VIEW footprint - mill-max 8331-0-15-15-18-27-10-0 holes)
 * CD-11
 * CD-12/CD27/CD16B/GN1/GN5 (TSB12P socket, mill-max 0390-0-15-15-08-27-10-0 holes)
+* CD47
 * CK1918 (RTS-14 socket)
 * CK8650
 * GENERIC (ZIF socket for tubes with flying leads)
@@ -43,10 +44,13 @@ All take 'D-SUB' socket-pins widely available on ebay, unless otherwise noted.
 * GR10J (B17A socket)
 * GR10K
 * GR10N (mill-max 8331-0-15-15-18-27-10-0 holes)
+* INS-1
 * ITS1A/B (wire holes)
+* IV-1
 * NE2 (wire holes)
 * NL840 (RTS-11 and RTS-14 socket)
 * NL848 (RTS-14 socket)
+* NL934
 * NL7037 (RTS-5 socket)
 * XN-3/XN-13/GN-13A/GN-6A (mill-max 0665-0-15-15-30-27-10-0 holes - I use this for many tubes with flying leads)
 * Z568M (use RTS-5/DUAL footprint - mill-max 8331-0-15-15-18-27-10-0 holes)
