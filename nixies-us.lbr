@@ -84,12 +84,7 @@ Based on the following sources:
 <wire x1="5.7149" y1="-5.3975" x2="5.7149" y2="5.715" width="0.254" layer="21"/>
 <wire x1="-5.7151" y1="5.715" x2="5.7149" y2="5.715" width="0.254" layer="21" curve="-95.459808"/>
 <wire x1="5.7149" y1="-5.3975" x2="-5.7151" y2="-5.3975" width="0.254" layer="21" curve="-92.664726"/>
-<wire x1="-0.0001" y1="4.7625" x2="-0.0001" y2="3.4925" width="0.127" layer="46"/>
 <wire x1="-5.715" y1="-5.3975" x2="-5.715" y2="5.715" width="0.254" layer="21"/>
-<circle x="-0.0001" y="-3.4925" radius="0.449" width="0.127" layer="46"/>
-<circle x="-0.0001" y="4.1275" radius="0.3175" width="0.127" layer="46"/>
-<circle x="-0.0001" y="4.1275" radius="0.635" width="0.127" layer="46"/>
-<circle x="-0.0001" y="-3.4925" radius="0.635" width="0.127" layer="46"/>
 <pad name="A" x="2.7774" y="1.5" drill="0.8"/>
 <pad name="4" x="-2.8576" y="1.5" drill="0.8"/>
 <pad name="5" x="-2.8176" y="-1.1425" drill="0.8"/>
@@ -102,136 +97,7 @@ Based on the following sources:
 <pad name="8" x="1.3649" y="-5.6825" drill="0.8"/>
 <pad name="7" x="-1.3651" y="-5.6825" drill="0.8"/>
 <text x="7.9375" y="-2.6988" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<polygon width="0.127" layer="46">
-<vertex x="-0.3176" y="4.445"/>
-<vertex x="-0.1271" y="4.6355"/>
-<vertex x="0.1586" y="4.6355"/>
-<vertex x="0.3491" y="4.5403"/>
-<vertex x="0.4761" y="4.3498"/>
-<vertex x="0.5396" y="4.1593"/>
-<vertex x="0.5396" y="3.9053"/>
-<vertex x="0.4444" y="3.7783"/>
-<vertex x="0.2856" y="3.683"/>
-<vertex x="0.0951" y="3.5878"/>
-<vertex x="-0.1589" y="3.6195"/>
-<vertex x="-0.3176" y="3.7783"/>
-<vertex x="-0.2541" y="3.6513"/>
-<vertex x="-0.4446" y="3.9053"/>
-<vertex x="-0.3811" y="3.7465"/>
-<vertex x="-0.5399" y="4.064"/>
-<vertex x="-0.5081" y="4.2863"/>
-<vertex x="-0.3811" y="4.4768"/>
-<vertex x="-0.2224" y="4.6038"/>
-<vertex x="0.0634" y="4.5403"/>
-<vertex x="0.1904" y="4.5085"/>
-<vertex x="0.3809" y="4.2545"/>
-<vertex x="0.4444" y="4.0958"/>
-<vertex x="0.3809" y="3.8418"/>
-<vertex x="0.0951" y="3.683"/>
-<vertex x="-0.1906" y="3.7465"/>
-<vertex x="-0.3811" y="3.8735"/>
-<vertex x="-0.5081" y="4.0958"/>
-<vertex x="-0.2859" y="4.445"/>
-<vertex x="-0.0954" y="4.4768"/>
-<vertex x="0.1904" y="4.445"/>
-<vertex x="0.3174" y="4.4768"/>
-<vertex x="0.3809" y="4.318"/>
-<vertex x="0.4126" y="3.937"/>
-<vertex x="0.3174" y="3.8735"/>
-<vertex x="0.1269" y="3.7783"/>
-<vertex x="-0.2541" y="3.937"/>
-<vertex x="-0.3811" y="4.0323"/>
-<vertex x="-0.3494" y="4.191"/>
-<vertex x="-0.1271" y="4.318"/>
-<vertex x="0.0316" y="4.2863"/>
-<vertex x="0.2221" y="4.064"/>
-<vertex x="0.1269" y="3.937"/>
-<vertex x="-0.1271" y="3.9688"/>
-<vertex x="-0.2224" y="4.2228"/>
-<vertex x="-0.0001" y="4.2863"/>
-<vertex x="0.1269" y="4.2863"/>
-<vertex x="0.1904" y="4.1275"/>
-<vertex x="0.0634" y="4.0005"/>
-<vertex x="-0.0636" y="4.0323"/>
-<vertex x="-0.2224" y="4.064"/>
-<vertex x="-0.1589" y="4.1275"/>
-<vertex x="-0.0954" y="4.1593"/>
-<vertex x="-0.0001" y="4.2228"/>
-<vertex x="0.0634" y="4.318"/>
-<vertex x="0.1269" y="4.2545"/>
-<vertex x="0.2221" y="4.1275"/>
-<vertex x="0.0634" y="4.064"/>
-<vertex x="-0.1589" y="4.0005"/>
-<vertex x="0.0634" y="4.1275"/>
-<vertex x="0.1904" y="4.2545"/>
-<vertex x="-0.0636" y="4.1275"/>
-<vertex x="-0.1906" y="4.1275"/>
-</polygon>
-<polygon width="0.127" layer="46">
-<vertex x="-0.1906" y="4.1275"/>
-<vertex x="0.0316" y="4.1275"/>
-<vertex x="0.0316" y="4.0958"/>
-</polygon>
-<polygon width="0.127" layer="46">
-<vertex x="-0.4129" y="-3.8418"/>
-<vertex x="-0.5081" y="-3.683"/>
-<vertex x="-0.5081" y="-3.429"/>
-<vertex x="-0.4446" y="-3.2068"/>
-<vertex x="-0.5399" y="-3.3655"/>
-<vertex x="-0.3176" y="-3.0163"/>
-<vertex x="-0.0001" y="-2.9528"/>
-<vertex x="0.3174" y="-3.048"/>
-<vertex x="0.4444" y="-3.2068"/>
-<vertex x="0.5079" y="-3.3973"/>
-<vertex x="0.5079" y="-3.5878"/>
-<vertex x="0.4444" y="-3.81"/>
-<vertex x="0.3491" y="-3.9053"/>
-<vertex x="0.1904" y="-4.0005"/>
-<vertex x="0.0316" y="-4.0323"/>
-<vertex x="-0.1271" y="-4.0005"/>
-<vertex x="-0.3176" y="-3.937"/>
-<vertex x="-0.3811" y="-3.8735"/>
-<vertex x="-0.3176" y="-3.429"/>
-<vertex x="-0.2541" y="-3.2703"/>
-<vertex x="-0.1906" y="-3.175"/>
-<vertex x="-0.0001" y="-3.1433"/>
-<vertex x="0.1586" y="-3.175"/>
-<vertex x="0.3174" y="-3.2703"/>
-<vertex x="0.3809" y="-3.429"/>
-<vertex x="0.3491" y="-3.6513"/>
-<vertex x="0.1904" y="-3.81"/>
-<vertex x="0.0316" y="-3.8735"/>
-<vertex x="-0.0954" y="-3.8418"/>
-<vertex x="-0.2224" y="-3.7148"/>
-<vertex x="-0.2541" y="-3.7465"/>
-<vertex x="-0.2541" y="-3.5878"/>
-<vertex x="-0.1906" y="-3.429"/>
-<vertex x="-0.1271" y="-3.2703"/>
-<vertex x="-0.0636" y="-3.2385"/>
-<vertex x="0.1269" y="-3.2385"/>
-<vertex x="0.2221" y="-3.302"/>
-<vertex x="0.2856" y="-3.429"/>
-<vertex x="0.2856" y="-3.5878"/>
-<vertex x="0.1586" y="-3.7148"/>
-<vertex x="0.0316" y="-3.81"/>
-<vertex x="-0.1271" y="-3.7465"/>
-<vertex x="-0.1906" y="-3.683"/>
-<vertex x="-0.2224" y="-3.6513"/>
-<vertex x="-0.1271" y="-3.429"/>
-<vertex x="-0.0319" y="-3.3338"/>
-<vertex x="0.1269" y="-3.3338"/>
-<vertex x="0.2221" y="-3.429"/>
-<vertex x="0.1904" y="-3.5878"/>
-<vertex x="0.0634" y="-3.683"/>
-<vertex x="-0.1271" y="-3.7148"/>
-<vertex x="-0.1271" y="-3.5243"/>
-<vertex x="0.0951" y="-3.429"/>
-<vertex x="0.0951" y="-3.5878"/>
-<vertex x="0.0316" y="-3.5878"/>
-<vertex x="-0.0001" y="-3.429"/>
-<vertex x="-0.0954" y="-3.6513"/>
-<vertex x="-0.0636" y="-3.6195"/>
-</polygon>
+<hole x="0" y="0" drill="4"/>
 </package>
 <package name="IN-8-2">
 <wire x1="-6.35" y1="0" x2="6.35" y2="0" width="0.127" layer="21" curve="-180"/>
@@ -257,16 +123,16 @@ Based on the following sources:
 <circle x="0" y="0" radius="8.8744" width="0.254" layer="21"/>
 <pad name="A" x="0" y="-6.1899" drill="0.84"/>
 <pad name="LHDP" x="2.8766" y="-5.4809" drill="0.84"/>
-<pad name="0" x="5.0942" y="-3.5163" drill="0.84"/>
-<pad name="9" x="6.1448" y="-0.7461" drill="0.84"/>
-<pad name="8" x="5.7877" y="2.195" drill="0.84"/>
-<pad name="7" x="4.1047" y="4.6332" drill="0.84"/>
-<pad name="6" x="1.4813" y="6.0101" drill="0.84"/>
-<pad name="5" x="-1.4813" y="6.0101" drill="0.84"/>
-<pad name="4" x="-4.1047" y="4.6332" drill="0.84"/>
-<pad name="3" x="-5.7877" y="2.195" drill="0.84"/>
-<pad name="2" x="-6.1448" y="-0.7461" drill="0.84"/>
-<pad name="1" x="-5.0942" y="-3.5163" drill="0.84"/>
+<pad name="1" x="5.0942" y="-3.5163" drill="0.84"/>
+<pad name="2" x="6.1448" y="-0.7461" drill="0.84"/>
+<pad name="3" x="5.7877" y="2.195" drill="0.84"/>
+<pad name="4" x="4.1047" y="4.6332" drill="0.84"/>
+<pad name="5" x="1.4813" y="6.0101" drill="0.84"/>
+<pad name="6" x="-1.4813" y="6.0101" drill="0.84"/>
+<pad name="7" x="-4.1047" y="4.6332" drill="0.84"/>
+<pad name="8" x="-5.7877" y="2.195" drill="0.84"/>
+<pad name="9" x="-6.1448" y="-0.7461" drill="0.84"/>
+<pad name="0" x="-5.0942" y="-3.5163" drill="0.84"/>
 <pad name="RHDP" x="-2.8766" y="-5.4809" drill="0.84"/>
 <text x="11.2713" y="-2.54" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 </package>
@@ -313,18 +179,18 @@ Based on the following sources:
 <wire x1="-6.35" y1="0" x2="6.1913" y2="0" width="0.254" layer="21" curve="-180"/>
 <circle x="0" y="0" radius="7.62" width="0.127" layer="21"/>
 <circle x="0" y="0" radius="7.6084" width="0.254" layer="21"/>
-<pad name="8" x="-3.6657" y="2.8302" drill="1" rot="R12"/>
-<pad name="7" x="-1.9284" y="4.1862" drill="1" rot="R12"/>
-<pad name="6" x="0.0342" y="4.6034" drill="1" rot="R12"/>
-<pad name="5" x="2.2028" y="4.0516" drill="1" rot="R12"/>
-<pad name="4" x="3.8374" y="2.3476" drill="1" rot="R12"/>
-<pad name="3" x="4.5559" y="0.1893" drill="1" rot="R12"/>
-<pad name="2" x="4.2224" y="-1.9069" drill="1" rot="R12"/>
-<pad name="1" x="2.7918" y="-3.4833" drill="1" rot="R12"/>
-<pad name="A" x="-3.1013" y="-3.4896" drill="1" rot="R12"/>
-<pad name="0" x="-4.2443" y="-1.6551" drill="1" rot="R12"/>
-<pad name="9" x="-4.4606" y="0.5838" drill="1" rot="R12"/>
 <text x="9.8425" y="-2.3813" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<pad name="1" x="2.375" y="-4.113621875" drill="1.2" rot="R300"/>
+<pad name="2" x="4.113621875" y="-2.375" drill="1.2" rot="R330"/>
+<pad name="3" x="4.75" y="0" drill="1.2"/>
+<pad name="4" x="4.113621875" y="2.375" drill="1.2" rot="R30"/>
+<pad name="5" x="2.375" y="4.113621875" drill="1.2" rot="R60"/>
+<pad name="6" x="0" y="4.75" drill="1.2" rot="R90"/>
+<pad name="7" x="-2.375" y="4.113621875" drill="1.2" rot="R120"/>
+<pad name="8" x="-4.113621875" y="2.375" drill="1.2" rot="R150"/>
+<pad name="9" x="-4.75" y="0" drill="1.2" rot="R180"/>
+<pad name="0" x="-4.113621875" y="-2.375" drill="1.2" rot="R210"/>
+<pad name="A" x="-2.375" y="-4.113621875" drill="1.2" rot="R240"/>
 </package>
 <package name="IN-18">
 <description>May be used with socket: &lt;b&gt;PL31-P&lt;/b&gt;</description>
@@ -483,25 +349,6 @@ Based on the following sources:
 <text x="-1.27" y="5.08" size="1.27" layer="21">Top</text>
 <wire x1="9.921875" y1="9.921875" x2="-9.921875" y2="9.921875" width="0.254" layer="21" curve="100"/>
 </package>
-<package name="IN-2">
-<description>May be used with socket: &lt;b&gt;11-pin- Russian&lt;/b&gt;</description>
-<wire x1="-6.3585" y1="0.0872" x2="6.1447" y2="0.0519" width="0.127" layer="21" curve="-179.999084"/>
-<wire x1="-6.35" y1="0" x2="6.1913" y2="0" width="0.254" layer="21" curve="-180"/>
-<circle x="0" y="0" radius="7.62" width="0.127" layer="21"/>
-<circle x="0" y="0" radius="7.6084" width="0.254" layer="21"/>
-<pad name="8" x="-3.6657" y="2.8302" drill="1" rot="R12"/>
-<pad name="7" x="-1.9284" y="4.1862" drill="1" rot="R12"/>
-<pad name="6" x="0.0342" y="4.6034" drill="1" rot="R12"/>
-<pad name="5" x="2.2028" y="4.0516" drill="1" rot="R12"/>
-<pad name="4" x="3.8374" y="2.3476" drill="1" rot="R12"/>
-<pad name="3" x="4.5559" y="0.1893" drill="1" rot="R12"/>
-<pad name="2" x="4.2224" y="-1.9069" drill="1" rot="R12"/>
-<pad name="1" x="2.7918" y="-3.4833" drill="1" rot="R12"/>
-<pad name="A" x="-3.1013" y="-3.4896" drill="1" rot="R12"/>
-<pad name="0" x="-4.2443" y="-1.6551" drill="1" rot="R12"/>
-<pad name="9" x="-4.4606" y="0.5838" drill="1" rot="R12"/>
-<text x="9.8425" y="-2.3813" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-</package>
 <package name="IN-2-DSUB">
 <circle x="0" y="0" radius="9.4996" width="0.127" layer="21"/>
 <text x="-10.795" y="0" size="1.27" layer="21" rot="R270" align="center">&gt;NAME</text>
@@ -590,6 +437,50 @@ Based on the following sources:
 <text x="0" y="-12.7" size="1.778" layer="21" align="center">&gt;VALUE</text>
 <text x="16.51" y="0" size="1.778" layer="21">&gt;NAME</text>
 <hole x="0" y="0" drill="5.08"/>
+</package>
+<package name="IN-18-8331">
+<description>May be used with socket: &lt;b&gt;PL31-P&lt;/b&gt;</description>
+<wire x1="-12.7" y1="0" x2="12.7" y2="-0.1588" width="0.254" layer="51" curve="-180"/>
+<circle x="0" y="0" radius="2.54" width="0.0254" layer="29"/>
+<circle x="0" y="0" radius="1.27" width="2.54" layer="29"/>
+<circle x="0" y="0" radius="1.27" width="2.54" layer="30"/>
+<circle x="0" y="0" radius="2.54" width="0.0254" layer="44"/>
+<circle x="0" y="0" radius="15.7555" width="0.254" layer="39"/>
+<pad name="A" x="-0.65914375" y="8.975828125" drill="1.8288" rot="R180"/>
+<pad name="5" x="3.089509375" y="8.448959375" drill="1.8288" rot="R180"/>
+<pad name="4" x="6.34963125" y="6.382175" drill="1.8288" rot="R180"/>
+<pad name="N/C" x="8.39380625" y="3.123134375" drill="1.8288" rot="R180"/>
+<pad name="6" x="-4.290615625" y="7.906996875" drill="1.8288" rot="R175.8"/>
+<pad name="7" x="-7.21384375" y="5.386134375" drill="1.8288" rot="R180"/>
+<pad name="3" x="-8.759996875" y="1.8634375" drill="1.8288" rot="R184.2"/>
+<pad name="N/C2" x="-8.7808875" y="-1.948328125" drill="1.8288" rot="R180"/>
+<pad name="8" x="-7.22804375" y="-5.34371875" drill="1.8288" rot="R175.8"/>
+<pad name="2" x="-4.330228125" y="-7.93845625" drill="1.8288" rot="R180"/>
+<pad name="1" x="-0.6446875" y="-8.97130625" drill="1.8288" rot="R180"/>
+<pad name="A2" x="3.123134375" y="-8.39380625" drill="1.8288" rot="R180"/>
+<pad name="0" x="6.282440625" y="-6.35695625" drill="1.8288" rot="R180"/>
+<pad name="9" x="8.45628125" y="-3.189240625" drill="1.8288" rot="R175.8"/>
+<text x="18.2563" y="-2.3813" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<hole x="0" y="0" drill="5"/>
+</package>
+<package name="IN-8-DSUB">
+<description>May be used with socket: &lt;b&gt;11-pin- Russian&lt;/b&gt;</description>
+<wire x1="-6.3585" y1="0.0872" x2="6.1447" y2="0.0519" width="0.127" layer="21" curve="-179.999084"/>
+<wire x1="-6.35" y1="0" x2="6.1913" y2="0" width="0.254" layer="21" curve="-180"/>
+<circle x="0" y="0" radius="7.62" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="7.6084" width="0.254" layer="21"/>
+<text x="9.8425" y="-2.3813" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<pad name="1" x="2.375" y="-4.113621875" drill="1.6" diameter="2.1844" rot="R300"/>
+<pad name="2" x="4.113621875" y="-2.375" drill="1.6" diameter="2.1844" rot="R330"/>
+<pad name="3" x="4.75" y="0" drill="1.6" diameter="2.1844"/>
+<pad name="4" x="4.113621875" y="2.375" drill="1.6" diameter="2.1844" rot="R30"/>
+<pad name="5" x="2.375" y="4.113621875" drill="1.6" diameter="2.1844" rot="R60"/>
+<pad name="6" x="0" y="4.75" drill="1.6" diameter="2.1844" rot="R90"/>
+<pad name="7" x="-2.375" y="4.113621875" drill="1.6" diameter="2.1844" rot="R120"/>
+<pad name="8" x="-4.113621875" y="2.375" drill="1.6" diameter="2.1844" rot="R150"/>
+<pad name="9" x="-4.75" y="0" drill="1.6" diameter="2.1844" rot="R180"/>
+<pad name="0" x="-4.113621875" y="-2.375" drill="1.6" diameter="2.1844" rot="R210"/>
+<pad name="A" x="-2.375" y="-4.113621875" drill="1.6" diameter="2.1844" rot="R240"/>
 </package>
 </packages>
 <symbols>
@@ -1100,16 +991,16 @@ Based on the following sources:
 <devices>
 <device name="" package="IN-14">
 <connects>
-<connect gate="G$1" pin="0" pad="0"/>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
+<connect gate="G$1" pin="0" pad="1"/>
+<connect gate="G$1" pin="1" pad="0"/>
+<connect gate="G$1" pin="2" pad="9"/>
+<connect gate="G$1" pin="3" pad="8"/>
+<connect gate="G$1" pin="4" pad="7"/>
+<connect gate="G$1" pin="5" pad="6"/>
+<connect gate="G$1" pin="6" pad="5"/>
+<connect gate="G$1" pin="7" pad="4"/>
+<connect gate="G$1" pin="8" pad="3"/>
+<connect gate="G$1" pin="9" pad="2"/>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="LHDP" pad="LHDP"/>
 <connect gate="G$1" pin="RHDP" pad="RHDP"/>
@@ -1172,6 +1063,24 @@ Based on the following sources:
 <technology name=""/>
 </technologies>
 </device>
+<device name="DSUB" package="IN-8-DSUB">
+<connects>
+<connect gate="G$1" pin="0" pad="0"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+<connect gate="G$1" pin="A" pad="A"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="IN-18" prefix="N">
@@ -1200,6 +1109,25 @@ Based on the following sources:
 </technologies>
 </device>
 <device name="D-SUB" package="IN-18-DSUB">
+<connects>
+<connect gate="G$1" pin="0" pad="0"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="A2" pad="A2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="MILL-MAX" package="IN-18-8331">
 <connects>
 <connect gate="G$1" pin="0" pad="0"/>
 <connect gate="G$1" pin="1" pad="1"/>
@@ -1579,24 +1507,6 @@ Based on the following sources:
 <gate name="G$1" symbol="IN-2" x="2.54" y="0"/>
 </gates>
 <devices>
-<device name="OLD" package="IN-8">
-<connects>
-<connect gate="G$1" pin="0" pad="0"/>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
-<connect gate="G$1" pin="A" pad="A"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
 <device name="" package="IN-2-DSUB">
 <connects>
 <connect gate="G$1" pin="0" pad="0"/>
