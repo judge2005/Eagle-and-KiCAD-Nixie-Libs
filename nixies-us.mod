@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1   08/01/2023-14:26:54
+PCBNEW-LibModule-V1   23/01/2023-14:08:19
 $INDEX
 nixies-us-IN-1
 nixies-us-IN-2-DSUB
