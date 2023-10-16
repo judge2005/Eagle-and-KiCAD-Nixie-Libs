@@ -2,6 +2,10 @@
 Eagle and KiCAD libraries for nixie tubes and useful components. Note that many are re-usable
 for other tubes as they use the same sockets and pin-outs - see [nixies.us](http://www.nixies.us/resources/resources/) for links to more information.
 
+To import the .mod files (footprints) in to KiCAD 7.x, click the down arrow next to the folder icon as below:
+
+![Importing .mod files in KiCAD 7.x](kicad7-import.png)
+
 The libraries include:
 
 ## nixies-us
